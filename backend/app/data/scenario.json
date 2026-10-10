@@ -1,0 +1,30 @@
+{
+  "id": "chennai-cyclone-alpha",
+  "name": "Cyclone Alpha — Chennai coast (simulated)",
+  "description": "A repeatable demonstration scenario: a tourist in Chennai during a cyclone with extremely heavy rainfall. Every alert, hazard and shelter in this scenario is simulated hackathon data.",
+  "is_simulated": true,
+  "map_center": [13.05, 80.22],
+  "map_zoom": 10,
+  "languages": [
+    {"code": "en", "name": "English", "native": "English"},
+    {"code": "ta", "name": "Tamil", "native": "தமிழ்"},
+    {"code": "hi", "name": "Hindi", "native": "हिन्दी"},
+    {"code": "te", "name": "Telugu", "native": "తెలుగు"}
+  ],
+  "demo_locations": [
+    {"id": "marina", "name": "Marina Beach", "lat": 13.0500, "lng": 80.2824},
+    {"id": "central", "name": "Chennai Central station", "lat": 13.0827, "lng": 80.2756},
+    {"id": "tnagar", "name": "Hotel in T. Nagar", "lat": 13.0418, "lng": 80.2341},
+    {"id": "velachery", "name": "Guesthouse in Velachery", "lat": 12.9815, "lng": 80.2180},
+    {"id": "airport", "name": "Chennai Airport", "lat": 12.9941, "lng": 80.1709},
+    {"id": "avadi", "name": "Relatives' home in Avadi", "lat": 13.1147, "lng": 80.1098},
+    {"id": "mahabalipuram", "name": "Mahabalipuram (day trip)", "lat": 12.6208, "lng": 80.1930},
+    {"id": "bengaluru-koramangala", "name": "Koramangala 80ft Road, Bengaluru", "lat": 12.9352, "lng": 77.6245},
+    {"id": "bengaluru-bellandur", "name": "Bellandur Outer Ring Road, Bengaluru", "lat": 12.9260, "lng": 77.6762},
+    {"id": "bengaluru-mgroad", "name": "MG Road / Brigade Road, Bengaluru", "lat": 12.9756, "lng": 77.6066},
+    {"id": "bengaluru-airport", "name": "Kempegowda Int'l Airport (KIA), Bengaluru", "lat": 13.1986, "lng": 77.7066},
+    {"id": "bengaluru-majestic", "name": "Majestic Railway Station, Bengaluru", "lat": 12.9781, "lng": 77.5695},
+    {"id": "bengaluru-indiranagar", "name": "Indiranagar 100ft Road, Bengaluru", "lat": 12.9784, "lng": 77.6408},
+    {"id": "bengaluru-whitefield", "name": "Whitefield ITPL, Bengaluru", "lat": 12.9863, "lng": 77.7308}
+  ]
+}

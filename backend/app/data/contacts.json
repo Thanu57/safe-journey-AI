@@ -1,0 +1,15 @@
+{
+  "note": "Numbers were compiled for the demo. Verify them with official sources before relying on them in a real emergency.",
+  "contacts": [
+    {"id": "c-112", "name": "National emergency number", "number": "112", "kind": "emergency"},
+    {"id": "c-108", "name": "Ambulance", "number": "108", "kind": "medical"},
+    {"id": "c-100", "name": "Police", "number": "100", "kind": "police"},
+    {"id": "c-101", "name": "Fire and rescue", "number": "101", "kind": "fire"},
+    {"id": "c-1070", "name": "State disaster control room (Tamil Nadu)", "number": "1070", "kind": "disaster"},
+    {"id": "c-1077", "name": "District disaster control room", "number": "1077", "kind": "disaster"},
+    {"id": "c-1913", "name": "Chennai civic helpline (rain and flood complaints)", "number": "1913", "kind": "civic"},
+    {"id": "c-1533", "name": "BBMP Monsoon Helpline (Bengaluru flood control)", "number": "1533", "kind": "civic"},
+    {"id": "c-1095", "name": "Bengaluru Traffic Police Helpline", "number": "1095", "kind": "police"},
+    {"id": "c-1363", "name": "Tourist helpline", "number": "1363", "kind": "tourist"}
+  ]
+}

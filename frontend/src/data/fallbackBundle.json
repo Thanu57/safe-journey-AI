@@ -1,0 +1,1546 @@
+{
+ "generated_at": "2026-10-10T09:53:16Z",
+ "scenario": {
+  "id": "chennai-cyclone-alpha",
+  "name": "Cyclone Alpha — Chennai coast (simulated)",
+  "description": "A repeatable demonstration scenario: a tourist in Chennai during a cyclone with extremely heavy rainfall. Every alert, hazard and shelter in this scenario is simulated hackathon data.",
+  "is_simulated": true,
+  "map_center": [
+   13.05,
+   80.22
+  ],
+  "map_zoom": 10,
+  "languages": [
+   {
+    "code": "en",
+    "name": "English",
+    "native": "English"
+   },
+   {
+    "code": "ta",
+    "name": "Tamil",
+    "native": "தமிழ்"
+   },
+   {
+    "code": "hi",
+    "name": "Hindi",
+    "native": "हिन्दी"
+   },
+   {
+    "code": "te",
+    "name": "Telugu",
+    "native": "తెలుగు"
+   }
+  ],
+  "demo_locations": [
+   {
+    "id": "marina",
+    "name": "Marina Beach",
+    "lat": 13.05,
+    "lng": 80.2824
+   },
+   {
+    "id": "central",
+    "name": "Chennai Central station",
+    "lat": 13.0827,
+    "lng": 80.2756
+   },
+   {
+    "id": "tnagar",
+    "name": "Hotel in T. Nagar",
+    "lat": 13.0418,
+    "lng": 80.2341
+   },
+   {
+    "id": "velachery",
+    "name": "Guesthouse in Velachery",
+    "lat": 12.9815,
+    "lng": 80.218
+   },
+   {
+    "id": "airport",
+    "name": "Chennai Airport",
+    "lat": 12.9941,
+    "lng": 80.1709
+   },
+   {
+    "id": "avadi",
+    "name": "Relatives' home in Avadi",
+    "lat": 13.1147,
+    "lng": 80.1098
+   },
+   {
+    "id": "mahabalipuram",
+    "name": "Mahabalipuram (day trip)",
+    "lat": 12.6208,
+    "lng": 80.193
+   },
+   {
+    "id": "bengaluru-koramangala",
+    "name": "Koramangala 80ft Road, Bengaluru",
+    "lat": 12.9352,
+    "lng": 77.6245
+   },
+   {
+    "id": "bengaluru-bellandur",
+    "name": "Bellandur Outer Ring Road, Bengaluru",
+    "lat": 12.926,
+    "lng": 77.6762
+   },
+   {
+    "id": "bengaluru-mgroad",
+    "name": "MG Road / Brigade Road, Bengaluru",
+    "lat": 12.9756,
+    "lng": 77.6066
+   },
+   {
+    "id": "bengaluru-airport",
+    "name": "Kempegowda Int'l Airport (KIA), Bengaluru",
+    "lat": 13.1986,
+    "lng": 77.7066
+   },
+   {
+    "id": "bengaluru-majestic",
+    "name": "Majestic Railway Station, Bengaluru",
+    "lat": 12.9781,
+    "lng": 77.5695
+   },
+   {
+    "id": "bengaluru-indiranagar",
+    "name": "Indiranagar 100ft Road, Bengaluru",
+    "lat": 12.9784,
+    "lng": 77.6408
+   },
+   {
+    "id": "bengaluru-whitefield",
+    "name": "Whitefield ITPL, Bengaluru",
+    "lat": 12.9863,
+    "lng": 77.7308
+   }
+  ]
+ },
+ "alerts": [
+  {
+   "id": "alert-001",
+   "title": "Cyclone landfall warning: North Tamil Nadu coast",
+   "type": "cyclone",
+   "severity": "Extreme",
+   "region": "Chennai, Tiruvallur and Chengalpattu coast",
+   "source_name": "State Disaster Management Authority (SIMULATED)",
+   "source_kind": "simulated_official",
+   "source_url": "",
+   "issued_at": "2026-10-10T08:18:16Z",
+   "updated_at": "2026-10-10T09:33:16Z",
+   "expires_at": "2026-10-11T02:18:16Z",
+   "status": "active",
+   "verification_status": "simulated_official",
+   "is_simulated": true,
+   "original": {
+    "lang": "ta",
+    "text": "அதிதீவிர புயல் 'ஆல்பா' அடுத்த 12 மணி நேரத்தில் சென்னை மற்றும் திருவள்ளூர் கடலோரப் பகுதிகளில் கரையைக் கடக்கும். மணிக்கு 90 முதல் 110 கி.மீ வேகத்தில் காற்று வீசும். கடலோர மற்றும் தாழ்வான பகுதிகளில் உள்ளவர்கள் பாதுகாப்பான இடங்களுக்குச் செல்லவும். கடற்கரைக்குச் செல்ல வேண்டாம்."
+   },
+   "translations": {
+    "en": {
+     "title": "Cyclone landfall warning: North Tamil Nadu coast",
+     "plain": "A strong cyclone named 'Alpha' (simulated) is expected to cross the coast near Chennai within about 12 hours, with winds of 90 to 110 km/h. People in coastal and low-lying areas should move to safer places. Stay away from beaches."
+    },
+    "ta": {
+     "title": "சூறாவளி கரையைக் கடக்கும் எச்சரிக்கை: வட தமிழக கடலோரம்",
+     "plain": "'ஆல்பா' என்ற வலுவான புயல் (உருவகப்படுத்தப்பட்டது) சுமார் 12 மணி நேரத்தில் சென்னை அருகே கரையைக் கடக்கும். காற்றின் வேகம் மணிக்கு 90 முதல் 110 கி.மீ. கடலோர மற்றும் தாழ்வான பகுதிகளில் உள்ளவர்கள் பாதுகாப்பான இடத்துக்குச் செல்லவும். கடற்கரையிலிருந்து விலகி இருங்கள்."
+    },
+    "hi": {
+     "title": "चक्रवात लैंडफॉल चेतावनी: उत्तरी तमिलनाडु तट",
+     "plain": "'अल्फा' नाम का शक्तिशाली चक्रवात (सिमुलेटेड) लगभग 12 घंटे में चेन्नई के पास तट से टकराने की संभावना है। हवा की गति 90 से 110 किमी/घंटा रहेगी। तटीय और निचले इलाकों के लोग सुरक्षित स्थानों पर जाएं। समुद्र तट से दूर रहें।"
+    },
+    "te": {
+     "title": "తుపాను తీరం దాటే హెచ్చరిక: ఉత్తర తమిళనాడు తీరం",
+     "plain": "'ఆల్ఫా' అనే బలమైన తుపాను (అనుకరణ) సుమారు 12 గంటల్లో చెన్నై సమీపంలో తీరం దాటే అవకాశం ఉంది. గాలి వేగం గంటకు 90 నుండి 110 కి.మీ. తీర మరియు లోతట్టు ప్రాంతాల్లోని వారు సురక్షిత ప్రదేశాలకు వెళ్లండి. బీచ్‌లకు దూరంగా ఉండండి."
+    }
+   },
+   "instructions": {
+    "en": [
+     "Stay indoors and away from windows until the authorities say it is safe.",
+     "If you are in a low-lying area, move to higher ground or a designated shelter when it is safe to do so.",
+     "Stay away from beaches and the shoreline. Waves and sea surges can be sudden.",
+     "Stay away from fallen electric wires and do not touch electrical switches with wet hands.",
+     "Charge your phone and power bank now and keep them with you.",
+     "Keep your passport or ID, medicines, drinking water and some cash in a waterproof bag.",
+     "Tell your hotel or host your plans and ask what evacuation advice local officials have given.",
+     "Follow instructions from local authorities and police over any social media post.",
+     "In an emergency call 112 (national emergency number)."
+    ],
+    "ta": [
+     "அதிகாரிகள் பாதுகாப்பு என அறிவிக்கும் வரை வீட்டுக்குள்ளேயே, ஜன்னல்களிலிருந்து விலகி இருங்கள்.",
+     "நீங்கள் தாழ்வான பகுதியில் இருந்தால், பாதுகாப்பாக இருக்கும்போது உயரமான இடத்திற்கோ அறிவிக்கப்பட்ட நிவாரண முகாமுக்கோ செல்லுங்கள்.",
+     "கடற்கரை மற்றும் கடலோரப் பகுதிகளிலிருந்து விலகி இருங்கள். அலைகளும் கடல் சீற்றமும் திடீரென ஏற்படலாம்.",
+     "அறுந்து விழுந்த மின் கம்பிகளிலிருந்து விலகி இருங்கள்; ஈரக் கைகளால் மின் சுவிட்சுகளைத் தொடாதீர்கள்.",
+     "உங்கள் தொலைபேசி மற்றும் பவர் பேங்கை இப்போதே சார்ஜ் செய்து உங்களுடன் வைத்திருங்கள்.",
+     "பாஸ்போர்ட் அல்லது அடையாள அட்டை, மருந்துகள், குடிநீர் மற்றும் சிறிது பணத்தை நீர்புகாத பையில் வைத்திருங்கள்.",
+     "உங்கள் ஹோட்டல் அல்லது தங்குமிட உரிமையாளரிடம் உங்கள் திட்டத்தைத் தெரிவித்து, உள்ளூர் அதிகாரிகள் வழங்கிய வெளியேற்ற அறிவுறுத்தல்களைக் கேளுங்கள்.",
+     "சமூக ஊடகப் பதிவுகளை விட உள்ளூர் அதிகாரிகள் மற்றும் காவல்துறையின் அறிவுறுத்தல்களைப் பின்பற்றுங்கள்.",
+     "அவசர நிலையில் 112 (தேசிய அவசர எண்) என்ற எண்ணை அழைக்கவும்."
+    ],
+    "hi": [
+     "अधिकारियों के सुरक्षित घोषित करने तक घर के अंदर रहें और खिड़कियों से दूर रहें।",
+     "यदि आप निचले इलाके में हैं, तो सुरक्षित होने पर ऊंची जगह या निर्धारित आश्रय स्थल पर जाएं।",
+     "समुद्र तट और तटरेखा से दूर रहें। लहरें और समुद्री उफान अचानक आ सकते हैं।",
+     "गिरे हुए बिजली के तारों से दूर रहें और गीले हाथों से बिजली के स्विच न छुएं।",
+     "अपना फोन और पावर बैंक अभी चार्ज करें और अपने पास रखें।",
+     "पासपोर्ट या पहचान पत्र, दवाइयां, पीने का पानी और कुछ नकदी वाटरप्रूफ बैग में रखें।",
+     "अपने होटल या मेजबान को अपनी योजना बताएं और पूछें कि स्थानीय अधिकारियों ने निकासी की क्या सलाह दी है।",
+     "सोशल मीडिया पोस्ट के बजाय स्थानीय अधिकारियों और पुलिस के निर्देशों का पालन करें।",
+     "आपातकाल में 112 (राष्ट्रीय आपातकालीन नंबर) पर कॉल करें।"
+    ],
+    "te": [
+     "అధికారులు సురక్షితమని ప్రకటించే వరకు ఇంట్లోనే ఉండండి, కిటికీలకు దూరంగా ఉండండి.",
+     "మీరు లోతట్టు ప్రాంతంలో ఉంటే, సురక్షితంగా ఉన్నప్పుడు ఎత్తైన ప్రదేశానికి లేదా నిర్దేశిత ఆశ్రయ కేంద్రానికి వెళ్లండి.",
+     "బీచ్‌లు మరియు సముద్ర తీరానికి దూరంగా ఉండండి. అలలు, సముద్రపు ఉప్పెన అకస్మాత్తుగా రావచ్చు.",
+     "తెగిపడిన విద్యుత్ తీగలకు దూరంగా ఉండండి, తడి చేతులతో విద్యుత్ స్విచ్‌లను తాకవద్దు.",
+     "మీ ఫోన్ మరియు పవర్ బ్యాంక్‌ను ఇప్పుడే ఛార్జ్ చేసి మీ దగ్గర ఉంచుకోండి.",
+     "పాస్‌పోర్ట్ లేదా ఐడి, మందులు, తాగునీరు మరియు కొంత నగదును వాటర్‌ప్రూఫ్ బ్యాగ్‌లో ఉంచండి.",
+     "మీ హోటల్ లేదా హోస్ట్‌కు మీ ప్రణాళిక తెలియజేసి, స్థానిక అధికారులు ఇచ్చిన తరలింపు సూచనల గురించి అడగండి.",
+     "సోషల్ మీడియా పోస్టుల కంటే స్థానిక అధికారులు మరియు పోలీసుల సూచనలను పాటించండి.",
+     "అత్యవసర పరిస్థితిలో 112 (జాతీయ అత్యవసర నంబర్)కు కాల్ చేయండి."
+    ]
+   },
+   "hazard_ids": [
+    "hz-001"
+   ],
+   "contradicted_by": null,
+   "superseded_by": null,
+   "trust": {
+    "level": "simulated_official",
+    "summary": "Simulated official-style alert for demonstration.",
+    "checks": [
+     {
+      "id": "source",
+      "status": "pass",
+      "detail": "Issued by State Disaster Management Authority (SIMULATED)."
+     },
+     {
+      "id": "link",
+      "status": "warn",
+      "detail": "No source link (simulated data has no real notice)."
+     },
+     {
+      "id": "fresh",
+      "status": "pass",
+      "detail": "Updated 20 min ago."
+     },
+     {
+      "id": "linked",
+      "status": "pass",
+      "detail": "1 location report(s) linked to this alert."
+     },
+     {
+      "id": "origin",
+      "status": "warn",
+      "detail": "Simulated hackathon data. This is not a real emergency."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alert-002",
+   "title": "Red alert: extremely heavy rainfall",
+   "type": "rain",
+   "severity": "Severe",
+   "region": "Chennai, Chengalpattu and Kancheepuram districts",
+   "source_name": "Regional Weather Centre (SIMULATED)",
+   "source_kind": "simulated_official",
+   "source_url": "",
+   "issued_at": "2026-10-10T07:33:16Z",
+   "updated_at": "2026-10-10T09:18:16Z",
+   "expires_at": "2026-10-11T07:33:16Z",
+   "status": "active",
+   "verification_status": "simulated_official",
+   "is_simulated": true,
+   "original": {
+    "lang": "en",
+    "text": "RED ALERT: Extremely heavy rainfall (more than 20 cm in 24 hours) is likely at isolated places in Chennai, Chengalpattu and Kancheepuram districts during the next 24 hours. Waterlogging in low-lying areas, traffic disruption and power cuts are expected."
+   },
+   "translations": {
+    "en": {
+     "title": "Red alert: extremely heavy rainfall",
+     "plain": "Very heavy rain is expected over the next 24 hours. Roads in low areas may flood, traffic may stop and power may go out. Avoid unnecessary travel."
+    },
+    "ta": {
+     "title": "சிவப்பு எச்சரிக்கை: மிக அதிக கனமழை",
+     "plain": "அடுத்த 24 மணி நேரத்தில் மிகக் கனமழை எதிர்பார்க்கப்படுகிறது. தாழ்வான பகுதிகளில் சாலைகளில் வெள்ளம் புகலாம்; போக்குவரத்து நிற்கலாம்; மின்தடை ஏற்படலாம். அவசியமற்ற பயணத்தைத் தவிர்க்கவும்."
+    },
+    "hi": {
+     "title": "रेड अलर्ट: अत्यधिक भारी बारिश",
+     "plain": "अगले 24 घंटों में बहुत भारी बारिश की संभावना है। निचले इलाकों में सड़कों पर पानी भर सकता है, यातायात रुक सकता है और बिजली जा सकती है। गैर-जरूरी यात्रा से बचें।"
+    },
+    "te": {
+     "title": "రెడ్ అలర్ట్: అత్యంత భారీ వర్షం",
+     "plain": "రాబోయే 24 గంటల్లో అత్యంత భారీ వర్షం కురిసే అవకాశం ఉంది. లోతట్టు ప్రాంతాల్లో రోడ్లు నీట మునగవచ్చు, రవాణా నిలిచిపోవచ్చు, విద్యుత్ సరఫరా ఆగిపోవచ్చు. అవసరం లేని ప్రయాణాలను నివారించండి."
+    }
+   },
+   "instructions": {
+    "en": [
+     "Postpone non-essential travel. Roads may be closed or waterlogged.",
+     "Do not walk or drive through floodwater. Even shallow, moving water can sweep you away.",
+     "Do not stay in basements or ground-floor rooms if water is rising. Move to an upper floor.",
+     "Charge your phone and power bank now and keep them with you.",
+     "Check with your airline or railway before travelling to the airport or station.",
+     "Drink only boiled or sealed bottled water. Floodwater can contaminate supplies.",
+     "In an emergency call 112 (national emergency number)."
+    ],
+    "ta": [
+     "அவசியமற்ற பயணங்களைத் தள்ளிப் போடுங்கள். சாலைகள் மூடப்பட்டிருக்கலாம் அல்லது நீர் தேங்கியிருக்கலாம்.",
+     "வெள்ள நீரில் நடக்கவோ வாகனம் ஓட்டவோ வேண்டாம். ஆழம் குறைவாக இருந்தாலும் ஓடும் நீர் உங்களை இழுத்துச் செல்லக்கூடும்.",
+     "நீர்மட்டம் உயர்ந்தால் அடித்தளம் அல்லது தரைத்தளத்தில் தங்க வேண்டாம்; மேல் தளத்திற்குச் செல்லுங்கள்.",
+     "உங்கள் தொலைபேசி மற்றும் பவர் பேங்கை இப்போதே சார்ஜ் செய்து உங்களுடன் வைத்திருங்கள்.",
+     "விமான நிலையம் அல்லது ரயில் நிலையத்துக்குச் செல்லும் முன் உங்கள் விமான அல்லது ரயில் சேவையைத் தொடர்புகொண்டு உறுதிசெய்யுங்கள்.",
+     "கொதிக்க வைத்த அல்லது சீல் செய்யப்பட்ட பாட்டில் நீரை மட்டும் குடியுங்கள்; வெள்ளம் குடிநீரை மாசுபடுத்தக்கூடும்.",
+     "அவசர நிலையில் 112 (தேசிய அவசர எண்) என்ற எண்ணை அழைக்கவும்."
+    ],
+    "hi": [
+     "गैर-जरूरी यात्रा टाल दें। सड़कें बंद या जलमग्न हो सकती हैं।",
+     "बाढ़ के पानी में पैदल या गाड़ी से न जाएं। कम गहरा बहता पानी भी आपको बहा सकता है।",
+     "यदि पानी बढ़ रहा हो तो बेसमेंट या भूतल के कमरों में न रहें; ऊपरी मंजिल पर जाएं।",
+     "अपना फोन और पावर बैंक अभी चार्ज करें और अपने पास रखें।",
+     "हवाई अड्डे या स्टेशन जाने से पहले अपनी एयरलाइन या रेलवे से जानकारी लें।",
+     "केवल उबला हुआ या सीलबंद बोतलबंद पानी पिएं; बाढ़ का पानी आपूर्ति को दूषित कर सकता है।",
+     "आपातकाल में 112 (राष्ट्रीय आपातकालीन नंबर) पर कॉल करें।"
+    ],
+    "te": [
+     "అవసరం లేని ప్రయాణాలను వాయిదా వేయండి. రోడ్లు మూసివేయబడి ఉండవచ్చు లేదా నీరు నిలిచి ఉండవచ్చు.",
+     "వరద నీటిలో నడవకండి, వాహనం నడపకండి. తక్కువ లోతున్న ప్రవహించే నీరు కూడా మిమ్మల్ని కొట్టుకుపోయేలా చేయగలదు.",
+     "నీరు పెరుగుతుంటే బేస్‌మెంట్ లేదా గ్రౌండ్ ఫ్లోర్ గదుల్లో ఉండవద్దు; పై అంతస్తుకు వెళ్లండి.",
+     "మీ ఫోన్ మరియు పవర్ బ్యాంక్‌ను ఇప్పుడే ఛార్జ్ చేసి మీ దగ్గర ఉంచుకోండి.",
+     "విమానాశ్రయం లేదా స్టేషన్‌కు వెళ్లే ముందు మీ విమానయాన సంస్థ లేదా రైల్వేను సంప్రదించండి.",
+     "మరిగించిన లేదా సీల్ చేసిన బాటిల్ నీటిని మాత్రమే తాగండి; వరద నీరు సరఫరాను కలుషితం చేయవచ్చు.",
+     "అత్యవసర పరిస్థితిలో 112 (జాతీయ అత్యవసర నంబర్)కు కాల్ చేయండి."
+    ]
+   },
+   "hazard_ids": [
+    "hz-002",
+    "hz-003",
+    "hz-008",
+    "hz-009",
+    "hz-010",
+    "hz-blr-001",
+    "hz-blr-002",
+    "hz-blr-003"
+   ],
+   "contradicted_by": null,
+   "superseded_by": null,
+   "trust": {
+    "level": "simulated_official",
+    "summary": "Simulated official-style alert for demonstration.",
+    "checks": [
+     {
+      "id": "source",
+      "status": "pass",
+      "detail": "Issued by Regional Weather Centre (SIMULATED)."
+     },
+     {
+      "id": "link",
+      "status": "warn",
+      "detail": "No source link (simulated data has no real notice)."
+     },
+     {
+      "id": "fresh",
+      "status": "pass",
+      "detail": "Updated 35 min ago."
+     },
+     {
+      "id": "linked",
+      "status": "pass",
+      "detail": "8 location report(s) linked to this alert."
+     },
+     {
+      "id": "origin",
+      "status": "warn",
+      "detail": "Simulated hackathon data. This is not a real emergency."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alert-003",
+   "title": "Flood alert: Adyar and Cooum river banks",
+   "type": "flood",
+   "severity": "Severe",
+   "region": "Adyar and Cooum river banks, Chennai",
+   "source_name": "Water Resources Department flood bulletin (SIMULATED)",
+   "source_kind": "simulated_official",
+   "source_url": "",
+   "issued_at": "2026-10-10T08:43:16Z",
+   "updated_at": "2026-10-10T09:28:16Z",
+   "expires_at": "2026-10-10T20:43:16Z",
+   "status": "active",
+   "verification_status": "simulated_official",
+   "is_simulated": true,
+   "original": {
+    "lang": "ta",
+    "text": "அடையாறு மற்றும் கூவம் ஆற்றின் கரையோரப் பகுதிகளில் உள்ளவர்களுக்கு வெள்ள எச்சரிக்கை. நீர்த்தேக்கங்களிலிருந்து உபரி நீர் திறக்கப்படுவதால் ஆற்றில் நீர்மட்டம் உயரும். ஆற்றங்கரையோரம் வசிப்பவர்கள் அதிகாரிகளின் அறிவுறுத்தலின்படி நிவாரண முகாம்களுக்குச் செல்லவும்."
+   },
+   "translations": {
+    "en": {
+     "title": "Flood alert: Adyar and Cooum river banks",
+     "plain": "Water released from reservoirs will raise the Adyar and Cooum rivers. People living along the river banks should be ready to move to relief camps when officials tell them to."
+    },
+    "ta": {
+     "title": "வெள்ள எச்சரிக்கை: அடையாறு மற்றும் கூவம் ஆற்றங்கரை",
+     "plain": "நீர்த்தேக்கங்களிலிருந்து திறக்கப்படும் உபரி நீரால் அடையாறு மற்றும் கூவம் ஆறுகளில் நீர்மட்டம் உயரும். ஆற்றங்கரையில் வசிப்பவர்கள் அதிகாரிகள் கூறியவுடன் நிவாரண முகாம்களுக்குச் செல்லத் தயாராக இருங்கள்."
+    },
+    "hi": {
+     "title": "बाढ़ चेतावनी: अडयार और कूवम नदी तट",
+     "plain": "जलाशयों से छोड़े जाने वाले पानी से अडयार और कूवम नदियों का जलस्तर बढ़ेगा। नदी किनारे रहने वाले लोग अधिकारियों के कहने पर राहत शिविरों में जाने के लिए तैयार रहें।"
+    },
+    "te": {
+     "title": "వరద హెచ్చరిక: అడయార్, కూవం నదీ తీరాలు",
+     "plain": "జలాశయాల నుంచి నీరు విడుదల చేయడంతో అడయార్, కూవం నదుల్లో నీటిమట్టం పెరుగుతుంది. నదీ తీరాల్లో నివసించే వారు అధికారులు చెప్పగానే సహాయ శిబిరాలకు వెళ్లడానికి సిద్ధంగా ఉండండి."
+    }
+   },
+   "instructions": {
+    "en": [
+     "If you are in a low-lying area, move to higher ground or a designated shelter when it is safe to do so.",
+     "Do not walk or drive through floodwater. Even shallow, moving water can sweep you away.",
+     "Do not stay in basements or ground-floor rooms if water is rising. Move to an upper floor.",
+     "Follow instructions from local authorities and police over any social media post.",
+     "Do not forward unverified messages. Check the source and time of any warning before you act on it.",
+     "Drink only boiled or sealed bottled water. Floodwater can contaminate supplies.",
+     "In an emergency call 112 (national emergency number)."
+    ],
+    "ta": [
+     "நீங்கள் தாழ்வான பகுதியில் இருந்தால், பாதுகாப்பாக இருக்கும்போது உயரமான இடத்திற்கோ அறிவிக்கப்பட்ட நிவாரண முகாமுக்கோ செல்லுங்கள்.",
+     "வெள்ள நீரில் நடக்கவோ வாகனம் ஓட்டவோ வேண்டாம். ஆழம் குறைவாக இருந்தாலும் ஓடும் நீர் உங்களை இழுத்துச் செல்லக்கூடும்.",
+     "நீர்மட்டம் உயர்ந்தால் அடித்தளம் அல்லது தரைத்தளத்தில் தங்க வேண்டாம்; மேல் தளத்திற்குச் செல்லுங்கள்.",
+     "சமூக ஊடகப் பதிவுகளை விட உள்ளூர் அதிகாரிகள் மற்றும் காவல்துறையின் அறிவுறுத்தல்களைப் பின்பற்றுங்கள்.",
+     "சரிபார்க்கப்படாத செய்திகளைப் பகிர வேண்டாம். செயல்படுவதற்கு முன் எச்சரிக்கையின் மூலத்தையும் நேரத்தையும் சரிபார்க்கவும்.",
+     "கொதிக்க வைத்த அல்லது சீல் செய்யப்பட்ட பாட்டில் நீரை மட்டும் குடியுங்கள்; வெள்ளம் குடிநீரை மாசுபடுத்தக்கூடும்.",
+     "அவசர நிலையில் 112 (தேசிய அவசர எண்) என்ற எண்ணை அழைக்கவும்."
+    ],
+    "hi": [
+     "यदि आप निचले इलाके में हैं, तो सुरक्षित होने पर ऊंची जगह या निर्धारित आश्रय स्थल पर जाएं।",
+     "बाढ़ के पानी में पैदल या गाड़ी से न जाएं। कम गहरा बहता पानी भी आपको बहा सकता है।",
+     "यदि पानी बढ़ रहा हो तो बेसमेंट या भूतल के कमरों में न रहें; ऊपरी मंजिल पर जाएं।",
+     "सोशल मीडिया पोस्ट के बजाय स्थानीय अधिकारियों और पुलिस के निर्देशों का पालन करें।",
+     "असत्यापित संदेश आगे न भेजें। कार्रवाई करने से पहले किसी भी चेतावनी का स्रोत और समय जांचें।",
+     "केवल उबला हुआ या सीलबंद बोतलबंद पानी पिएं; बाढ़ का पानी आपूर्ति को दूषित कर सकता है।",
+     "आपातकाल में 112 (राष्ट्रीय आपातकालीन नंबर) पर कॉल करें।"
+    ],
+    "te": [
+     "మీరు లోతట్టు ప్రాంతంలో ఉంటే, సురక్షితంగా ఉన్నప్పుడు ఎత్తైన ప్రదేశానికి లేదా నిర్దేశిత ఆశ్రయ కేంద్రానికి వెళ్లండి.",
+     "వరద నీటిలో నడవకండి, వాహనం నడపకండి. తక్కువ లోతున్న ప్రవహించే నీరు కూడా మిమ్మల్ని కొట్టుకుపోయేలా చేయగలదు.",
+     "నీరు పెరుగుతుంటే బేస్‌మెంట్ లేదా గ్రౌండ్ ఫ్లోర్ గదుల్లో ఉండవద్దు; పై అంతస్తుకు వెళ్లండి.",
+     "సోషల్ మీడియా పోస్టుల కంటే స్థానిక అధికారులు మరియు పోలీసుల సూచనలను పాటించండి.",
+     "ధృవీకరించని సందేశాలను ఫార్వర్డ్ చేయవద్దు. చర్య తీసుకునే ముందు హెచ్చరిక మూలం మరియు సమయాన్ని తనిఖీ చేయండి.",
+     "మరిగించిన లేదా సీల్ చేసిన బాటిల్ నీటిని మాత్రమే తాగండి; వరద నీరు సరఫరాను కలుషితం చేయవచ్చు.",
+     "అత్యవసర పరిస్థితిలో 112 (జాతీయ అత్యవసర నంబర్)కు కాల్ చేయండి."
+    ]
+   },
+   "hazard_ids": [
+    "hz-004",
+    "hz-005"
+   ],
+   "contradicted_by": null,
+   "superseded_by": null,
+   "trust": {
+    "level": "simulated_official",
+    "summary": "Simulated official-style alert for demonstration.",
+    "checks": [
+     {
+      "id": "source",
+      "status": "pass",
+      "detail": "Issued by Water Resources Department flood bulletin (SIMULATED)."
+     },
+     {
+      "id": "link",
+      "status": "warn",
+      "detail": "No source link (simulated data has no real notice)."
+     },
+     {
+      "id": "fresh",
+      "status": "pass",
+      "detail": "Updated 25 min ago."
+     },
+     {
+      "id": "linked",
+      "status": "pass",
+      "detail": "2 location report(s) linked to this alert."
+     },
+     {
+      "id": "origin",
+      "status": "warn",
+      "detail": "Simulated hackathon data. This is not a real emergency."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alert-004",
+   "title": "Beach closure and sea surge advisory",
+   "type": "coastal",
+   "severity": "Moderate",
+   "region": "Marina, Besant Nagar and East Coast Road beaches",
+   "source_name": "City Police coastal notice (SIMULATED)",
+   "source_kind": "simulated_official",
+   "source_url": "",
+   "issued_at": "2026-10-10T08:03:16Z",
+   "updated_at": "2026-10-10T08:53:16Z",
+   "expires_at": "2026-10-11T08:03:16Z",
+   "status": "active",
+   "verification_status": "simulated_official",
+   "is_simulated": true,
+   "original": {
+    "lang": "en",
+    "text": "All beaches from Ennore to Mahabalipuram are closed to the public from 6 PM today. A sea surge of 2 to 3 metres above normal waves is expected. Fishing and water sports are suspended until further notice."
+   },
+   "translations": {
+    "en": {
+     "title": "Beach closure and sea surge advisory",
+     "plain": "Beaches are closed. Waves can be unusually high. Do not go near the sea."
+    },
+    "ta": {
+     "title": "கடற்கரைகள் மூடல் மற்றும் கடல் சீற்ற அறிவிப்பு",
+     "plain": "அனைத்து கடற்கரைகளும் மூடப்பட்டுள்ளன. அலைகள் வழக்கத்தை விட மிக உயரமாக எழலாம். கடலுக்கு அருகில் செல்ல வேண்டாம்."
+    },
+    "hi": {
+     "title": "समुद्र तट बंद और समुद्री उफान की सलाह",
+     "plain": "सभी समुद्र तट बंद हैं। लहरें असामान्य रूप से ऊंची हो सकती हैं। समुद्र के पास न जाएं।"
+    },
+    "te": {
+     "title": "బీచ్‌ల మూసివేత, సముద్రపు ఉప్పెన సూచన",
+     "plain": "అన్ని బీచ్‌లు మూసివేయబడ్డాయి. అలలు అసాధారణంగా ఎత్తుగా ఉండవచ్చు. సముద్రం దగ్గరకు వెళ్లవద్దు."
+    }
+   },
+   "instructions": {
+    "en": [
+     "Stay away from beaches and the shoreline. Waves and sea surges can be sudden.",
+     "Follow instructions from local authorities and police over any social media post.",
+     "Postpone non-essential travel. Roads may be closed or waterlogged.",
+     "In an emergency call 112 (national emergency number)."
+    ],
+    "ta": [
+     "கடற்கரை மற்றும் கடலோரப் பகுதிகளிலிருந்து விலகி இருங்கள். அலைகளும் கடல் சீற்றமும் திடீரென ஏற்படலாம்.",
+     "சமூக ஊடகப் பதிவுகளை விட உள்ளூர் அதிகாரிகள் மற்றும் காவல்துறையின் அறிவுறுத்தல்களைப் பின்பற்றுங்கள்.",
+     "அவசியமற்ற பயணங்களைத் தள்ளிப் போடுங்கள். சாலைகள் மூடப்பட்டிருக்கலாம் அல்லது நீர் தேங்கியிருக்கலாம்.",
+     "அவசர நிலையில் 112 (தேசிய அவசர எண்) என்ற எண்ணை அழைக்கவும்."
+    ],
+    "hi": [
+     "समुद्र तट और तटरेखा से दूर रहें। लहरें और समुद्री उफान अचानक आ सकते हैं।",
+     "सोशल मीडिया पोस्ट के बजाय स्थानीय अधिकारियों और पुलिस के निर्देशों का पालन करें।",
+     "गैर-जरूरी यात्रा टाल दें। सड़कें बंद या जलमग्न हो सकती हैं।",
+     "आपातकाल में 112 (राष्ट्रीय आपातकालीन नंबर) पर कॉल करें।"
+    ],
+    "te": [
+     "బీచ్‌లు మరియు సముద్ర తీరానికి దూరంగా ఉండండి. అలలు, సముద్రపు ఉప్పెన అకస్మాత్తుగా రావచ్చు.",
+     "సోషల్ మీడియా పోస్టుల కంటే స్థానిక అధికారులు మరియు పోలీసుల సూచనలను పాటించండి.",
+     "అవసరం లేని ప్రయాణాలను వాయిదా వేయండి. రోడ్లు మూసివేయబడి ఉండవచ్చు లేదా నీరు నిలిచి ఉండవచ్చు.",
+     "అత్యవసర పరిస్థితిలో 112 (జాతీయ అత్యవసర నంబర్)కు కాల్ చేయండి."
+    ]
+   },
+   "hazard_ids": [
+    "hz-006",
+    "hz-007"
+   ],
+   "contradicted_by": null,
+   "superseded_by": null,
+   "trust": {
+    "level": "simulated_official",
+    "summary": "Simulated official-style alert for demonstration.",
+    "checks": [
+     {
+      "id": "source",
+      "status": "pass",
+      "detail": "Issued by City Police coastal notice (SIMULATED)."
+     },
+     {
+      "id": "link",
+      "status": "warn",
+      "detail": "No source link (simulated data has no real notice)."
+     },
+     {
+      "id": "fresh",
+      "status": "pass",
+      "detail": "Updated 1 h ago."
+     },
+     {
+      "id": "linked",
+      "status": "pass",
+      "detail": "2 location report(s) linked to this alert."
+     },
+     {
+      "id": "origin",
+      "status": "warn",
+      "detail": "Simulated hackathon data. This is not a real emergency."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alert-005",
+   "title": "Unverified claim: 'The reservoir has burst'",
+   "type": "rumor",
+   "severity": "Info",
+   "region": "Circulating on social media (Chennai)",
+   "source_name": "Forwarded message on social media (unverified)",
+   "source_kind": "social_media",
+   "source_url": "",
+   "issued_at": "2026-10-10T09:03:16Z",
+   "updated_at": "2026-10-10T09:03:16Z",
+   "expires_at": "2026-10-11T09:03:16Z",
+   "status": "active",
+   "verification_status": "unverified",
+   "is_simulated": true,
+   "original": {
+    "lang": "en",
+    "text": "URGENT!!! The main reservoir has BURST. Whole Chennai will be under 10 feet of water in 1 hour. Forward to everyone you know!!!"
+   },
+   "translations": {
+    "en": {
+     "title": "Unverified claim: 'The reservoir has burst'",
+     "plain": "This message claims a reservoir has burst. No official source confirms this. The official flood bulletin only says that controlled water release is raising river levels."
+    },
+    "ta": {
+     "title": "சரிபார்க்கப்படாதது: 'நீர்த்தேக்கம் உடைந்துவிட்டது'",
+     "plain": "இந்தச் செய்தி நீர்த்தேக்கம் உடைந்துவிட்டதாகக் கூறுகிறது. எந்த அதிகாரப்பூர்வ மூலமும் இதை உறுதி செய்யவில்லை. அதிகாரப்பூர்வ வெள்ள அறிவிப்பு, கட்டுப்படுத்தப்பட்ட நீர் திறப்பால் ஆற்று நீர்மட்டம் உயர்கிறது என்று மட்டுமே கூறுகிறது."
+    },
+    "hi": {
+     "title": "असत्यापित: 'जलाशय टूट गया'",
+     "plain": "इस संदेश में दावा है कि एक जलाशय टूट गया है। किसी आधिकारिक स्रोत ने इसकी पुष्टि नहीं की है। आधिकारिक बाढ़ बुलेटिन केवल इतना कहता है कि नियंत्रित जल निकासी से नदियों का स्तर बढ़ रहा है।"
+    },
+    "te": {
+     "title": "ధృవీకరించలేదు: 'జలాశయం తెగిపోయింది'",
+     "plain": "ఈ సందేశం ఒక జలాశయం తెగిపోయిందని చెబుతోంది. ఏ అధికారిక వనరు దీన్ని నిర్ధారించలేదు. అధికారిక వరద బులెటిన్ నియంత్రిత నీటి విడుదల వల్ల నదుల్లో నీటిమట్టం పెరుగుతోందని మాత్రమే చెబుతోంది."
+    }
+   },
+   "instructions": {
+    "en": [
+     "Do not forward unverified messages. Check the source and time of any warning before you act on it.",
+     "Follow instructions from local authorities and police over any social media post.",
+     "In an emergency call 112 (national emergency number)."
+    ],
+    "ta": [
+     "சரிபார்க்கப்படாத செய்திகளைப் பகிர வேண்டாம். செயல்படுவதற்கு முன் எச்சரிக்கையின் மூலத்தையும் நேரத்தையும் சரிபார்க்கவும்.",
+     "சமூக ஊடகப் பதிவுகளை விட உள்ளூர் அதிகாரிகள் மற்றும் காவல்துறையின் அறிவுறுத்தல்களைப் பின்பற்றுங்கள்.",
+     "அவசர நிலையில் 112 (தேசிய அவசர எண்) என்ற எண்ணை அழைக்கவும்."
+    ],
+    "hi": [
+     "असत्यापित संदेश आगे न भेजें। कार्रवाई करने से पहले किसी भी चेतावनी का स्रोत और समय जांचें।",
+     "सोशल मीडिया पोस्ट के बजाय स्थानीय अधिकारियों और पुलिस के निर्देशों का पालन करें।",
+     "आपातकाल में 112 (राष्ट्रीय आपातकालीन नंबर) पर कॉल करें।"
+    ],
+    "te": [
+     "ధృవీకరించని సందేశాలను ఫార్వర్డ్ చేయవద్దు. చర్య తీసుకునే ముందు హెచ్చరిక మూలం మరియు సమయాన్ని తనిఖీ చేయండి.",
+     "సోషల్ మీడియా పోస్టుల కంటే స్థానిక అధికారులు మరియు పోలీసుల సూచనలను పాటించండి.",
+     "అత్యవసర పరిస్థితిలో 112 (జాతీయ అత్యవసర నంబర్)కు కాల్ చేయండి."
+    ]
+   },
+   "hazard_ids": [
+    "hz-011"
+   ],
+   "contradicted_by": "alert-003",
+   "superseded_by": null,
+   "trust": {
+    "level": "unverified",
+    "summary": "Unverified. Do not act on this message alone.",
+    "checks": [
+     {
+      "id": "source",
+      "status": "fail",
+      "detail": "Anonymous forwarded message. The original sender is unknown."
+     },
+     {
+      "id": "link",
+      "status": "warn",
+      "detail": "No source link (simulated data has no real notice)."
+     },
+     {
+      "id": "fresh",
+      "status": "pass",
+      "detail": "Updated 50 min ago."
+     },
+     {
+      "id": "linked",
+      "status": "fail",
+      "detail": "Contradicted by official alert alert-003."
+     },
+     {
+      "id": "origin",
+      "status": "warn",
+      "detail": "Simulated hackathon data. This is not a real emergency."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alert-006",
+   "title": "Orange alert: heavy rainfall (earlier advisory)",
+   "type": "rain",
+   "severity": "Minor",
+   "region": "Chennai and neighbouring districts",
+   "source_name": "Regional Weather Centre (SIMULATED)",
+   "source_kind": "simulated_official",
+   "source_url": "",
+   "issued_at": "2026-10-09T03:53:16Z",
+   "updated_at": "2026-10-09T05:33:16Z",
+   "expires_at": "2026-10-09T15:53:16Z",
+   "status": "expired",
+   "verification_status": "expired",
+   "is_simulated": true,
+   "original": {
+    "lang": "en",
+    "text": "ORANGE ALERT: Heavy to very heavy rainfall is likely at a few places in Chennai and neighbouring districts for the next 12 hours."
+   },
+   "translations": {
+    "en": {
+     "title": "Orange alert: heavy rainfall (earlier advisory)",
+     "plain": "Heavy rain was expected. This advisory ended yesterday and has been replaced by a red alert."
+    },
+    "ta": {
+     "title": "ஆரஞ்சு எச்சரிக்கை: கனமழை (முந்தைய அறிவிப்பு)",
+     "plain": "கனமழை எதிர்பார்க்கப்பட்டது. இந்த அறிவுரை நேற்றே முடிந்துவிட்டது; அதற்குப் பதிலாக சிவப்பு எச்சரிக்கை வெளியிடப்பட்டுள்ளது."
+    },
+    "hi": {
+     "title": "ऑरेंज अलर्ट: भारी बारिश (पिछली सलाह)",
+     "plain": "भारी बारिश की संभावना थी। यह सलाह कल समाप्त हो गई और इसकी जगह रेड अलर्ट जारी हुआ है।"
+    },
+    "te": {
+     "title": "ఆరెంజ్ అలర్ట్: భారీ వర్షం (మునుపటి సూచన)",
+     "plain": "భారీ వర్షం అంచనా వేయబడింది. ఈ సూచన నిన్ననే ముగిసింది; దాని స్థానంలో రెడ్ అలర్ట్ జారీ చేయబడింది."
+    }
+   },
+   "instructions": {
+    "en": [
+     "This advisory has expired. Look for the latest active alert before deciding what to do.",
+     "Follow instructions from local authorities and police over any social media post."
+    ],
+    "ta": [
+     "இந்த அறிவுரை காலாவதியாகிவிட்டது. என்ன செய்வது என முடிவெடுக்கும் முன் சமீபத்திய செயலில் உள்ள எச்சரிக்கையைப் பாருங்கள்.",
+     "சமூக ஊடகப் பதிவுகளை விட உள்ளூர் அதிகாரிகள் மற்றும் காவல்துறையின் அறிவுறுத்தல்களைப் பின்பற்றுங்கள்."
+    ],
+    "hi": [
+     "यह सलाह समाप्त हो चुकी है। निर्णय लेने से पहले नवीनतम सक्रिय अलर्ट देखें।",
+     "सोशल मीडिया पोस्ट के बजाय स्थानीय अधिकारियों और पुलिस के निर्देशों का पालन करें।"
+    ],
+    "te": [
+     "ఈ సూచన గడువు ముగిసింది. నిర్ణయం తీసుకునే ముందు తాజా క్రియాశీల హెచ్చరికను చూడండి.",
+     "సోషల్ మీడియా పోస్టుల కంటే స్థానిక అధికారులు మరియు పోలీసుల సూచనలను పాటించండి."
+    ]
+   },
+   "hazard_ids": [],
+   "contradicted_by": null,
+   "superseded_by": "alert-002",
+   "trust": {
+    "level": "expired",
+    "summary": "Expired. A newer alert has replaced it.",
+    "checks": [
+     {
+      "id": "source",
+      "status": "pass",
+      "detail": "Issued by Regional Weather Centre (SIMULATED)."
+     },
+     {
+      "id": "link",
+      "status": "warn",
+      "detail": "No source link (simulated data has no real notice)."
+     },
+     {
+      "id": "fresh",
+      "status": "fail",
+      "detail": "Expired. Last updated 28 h ago. Replaced by alert-002."
+     },
+     {
+      "id": "linked",
+      "status": "warn",
+      "detail": "No location reports are linked to this alert."
+     },
+     {
+      "id": "origin",
+      "status": "warn",
+      "detail": "Simulated hackathon data. This is not a real emergency."
+     }
+    ]
+   }
+  }
+ ],
+ "hazards": [
+  {
+   "id": "hz-001",
+   "name": "Projected cyclone landfall zone",
+   "type": "cyclone_zone",
+   "alert_id": "alert-001",
+   "lat": 13.16,
+   "lng": 80.33,
+   "radius_m": 16000,
+   "status": "projected",
+   "severity": "Extreme",
+   "description": "Area where the centre of the cyclone is projected to cross the coast. Strong winds and storm surge are possible nearby.",
+   "source_name": "State Disaster Management Authority (SIMULATED)",
+   "observed_at": "2026-10-10T09:33:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-002",
+   "name": "Waterlogging in Velachery",
+   "type": "flood",
+   "alert_id": "alert-002",
+   "lat": 12.9815,
+   "lng": 80.218,
+   "radius_m": 1300,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "Reported knee-deep water on several streets. Low-lying roads are likely to stay flooded.",
+   "source_name": "Civic control room report (SIMULATED)",
+   "observed_at": "2026-10-10T09:23:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-003",
+   "name": "Pallikaranai marsh overflow",
+   "type": "flood",
+   "alert_id": "alert-002",
+   "lat": 12.9516,
+   "lng": 80.215,
+   "radius_m": 1700,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "Marsh has overflowed onto nearby roads and housing areas.",
+   "source_name": "Civic control room report (SIMULATED)",
+   "observed_at": "2026-10-10T09:08:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-004",
+   "name": "Adyar river bank near Kotturpuram",
+   "type": "river_flood",
+   "alert_id": "alert-003",
+   "lat": 13.0215,
+   "lng": 80.242,
+   "radius_m": 1000,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "River level rising. Low houses on the bank may be affected after the next water release.",
+   "source_name": "Water Resources Department flood bulletin (SIMULATED)",
+   "observed_at": "2026-10-10T09:28:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-005",
+   "name": "Cooum river bank near Chetpet",
+   "type": "river_flood",
+   "alert_id": "alert-003",
+   "lat": 13.0725,
+   "lng": 80.242,
+   "radius_m": 900,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "River level rising. Stay away from the bank and nearby footpaths.",
+   "source_name": "Water Resources Department flood bulletin (SIMULATED)",
+   "observed_at": "2026-10-10T09:28:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-006",
+   "name": "Marina Beach surge zone",
+   "type": "coastal_surge",
+   "alert_id": "alert-004",
+   "lat": 13.05,
+   "lng": 80.2824,
+   "radius_m": 2200,
+   "status": "reported",
+   "severity": "Moderate",
+   "description": "Beach closed. High waves have been reported along the shoreline.",
+   "source_name": "City Police coastal notice (SIMULATED)",
+   "observed_at": "2026-10-10T08:53:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-007",
+   "name": "Besant Nagar beach surge zone",
+   "type": "coastal_surge",
+   "alert_id": "alert-004",
+   "lat": 12.9993,
+   "lng": 80.2707,
+   "radius_m": 1400,
+   "status": "reported",
+   "severity": "Moderate",
+   "description": "Beach closed. High waves have been reported along the shoreline.",
+   "source_name": "City Police coastal notice (SIMULATED)",
+   "observed_at": "2026-10-10T08:53:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-008",
+   "name": "Anna Salai waterlogging (Teynampet)",
+   "type": "road_closure",
+   "alert_id": "alert-002",
+   "lat": 13.0418,
+   "lng": 80.25,
+   "radius_m": 500,
+   "status": "reported",
+   "severity": "Moderate",
+   "description": "Traffic diverted because of standing water. Use another route or wait.",
+   "source_name": "Traffic police advisory (SIMULATED)",
+   "observed_at": "2026-10-10T09:13:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-009",
+   "name": "Mudichur causeway closed",
+   "type": "road_closure",
+   "alert_id": "alert-002",
+   "lat": 12.9,
+   "lng": 80.073,
+   "radius_m": 700,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "Low-level causeway is under water. Do not attempt to cross.",
+   "source_name": "Traffic police advisory (SIMULATED)",
+   "observed_at": "2026-10-10T08:58:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-010",
+   "name": "Avadi–Poonamallee road waterlogging",
+   "type": "road_closure",
+   "alert_id": "alert-002",
+   "lat": 13.1147,
+   "lng": 80.1098,
+   "radius_m": 600,
+   "status": "reported",
+   "severity": "Moderate",
+   "description": "Water on the carriageway. Vehicles are moving slowly or being turned back.",
+   "source_name": "Traffic police advisory (SIMULATED)",
+   "observed_at": "2026-10-10T09:03:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-011",
+   "name": "Claimed reservoir breach (unverified)",
+   "type": "unverified_claim",
+   "alert_id": "alert-005",
+   "lat": 13.01,
+   "lng": 80.07,
+   "radius_m": 2500,
+   "status": "unverified",
+   "severity": "Info",
+   "description": "Location comes from a forwarded message and is approximate. No official source reports a breach. The official flood bulletin describes a controlled release.",
+   "source_name": "Forwarded message on social media (unverified)",
+   "observed_at": "2026-10-10T09:03:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-blr-001",
+   "name": "Koramangala 80ft Road Waterlogging",
+   "type": "flood",
+   "alert_id": "alert-002",
+   "lat": 12.9352,
+   "lng": 77.6245,
+   "radius_m": 1200,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "Knee-deep standing water (1.5 ft) near Sony World junction. Service lanes waterlogged and slow traffic.",
+   "source_name": "Bengaluru Traffic Police / BBMP Monsoon Desk (SIMULATED)",
+   "observed_at": "2026-10-10T09:38:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-blr-002",
+   "name": "Bellandur Lake Overflow & ORR Submersion",
+   "type": "flood",
+   "alert_id": "alert-002",
+   "lat": 12.926,
+   "lng": 77.6762,
+   "radius_m": 1500,
+   "status": "reported",
+   "severity": "Severe",
+   "description": "Bellandur lake overflow onto Outer Ring Road service carriageway. Road submerged; avoid underpass.",
+   "source_name": "BBMP Control Room (SIMULATED)",
+   "observed_at": "2026-10-10T09:28:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "hz-blr-003",
+   "name": "Okalipuram Railway Underpass Closure (Majestic)",
+   "type": "road_closure",
+   "alert_id": "alert-002",
+   "lat": 12.979,
+   "lng": 77.568,
+   "radius_m": 600,
+   "status": "reported",
+   "severity": "Moderate",
+   "description": "Railway underpass blocked due to 2ft rainwater accumulation. Divert via Anand Rao Circle flyover.",
+   "source_name": "Traffic Police advisory (SIMULATED)",
+   "observed_at": "2026-10-10T09:23:16Z",
+   "is_simulated": true
+  }
+ ],
+ "shelters": [
+  {
+   "id": "sh-001",
+   "name": "Government School Relief Camp, Saidapet",
+   "address": "Saidapet, Chennai (approximate)",
+   "lat": 13.0213,
+   "lng": 80.2231,
+   "capacity": 400,
+   "availability": "confirmed_open",
+   "source_name": "Relief camp list (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": true,
+    "notes": "Ground-floor hall with ramp."
+   },
+   "verified_at": "2026-10-10T09:13:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-002",
+   "name": "Community Hall, Velachery Main Road",
+   "address": "Velachery, Chennai (approximate)",
+   "lat": 12.985,
+   "lng": 80.21,
+   "capacity": 250,
+   "availability": "unconfirmed",
+   "source_name": "Designated shelter register (SIMULATED)",
+   "accessibility": {
+    "step_free": "unknown",
+    "medical_desk": false,
+    "notes": ""
+   },
+   "verified_at": null,
+   "is_simulated": true
+  },
+  {
+   "id": "sh-003",
+   "name": "Corporation School, Egmore",
+   "address": "Egmore, Chennai (approximate)",
+   "lat": 13.0732,
+   "lng": 80.2609,
+   "capacity": 350,
+   "availability": "confirmed_open",
+   "source_name": "Relief camp list (SIMULATED)",
+   "accessibility": {
+    "step_free": "no",
+    "medical_desk": true,
+    "notes": "Stairs at entrance. Staff can assist."
+   },
+   "verified_at": "2026-10-10T08:58:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-004",
+   "name": "Marriage Hall Shelter, T. Nagar",
+   "address": "T. Nagar, Chennai (approximate)",
+   "lat": 13.0418,
+   "lng": 80.2341,
+   "capacity": 300,
+   "availability": "unconfirmed",
+   "source_name": "Designated shelter register (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": false,
+    "notes": ""
+   },
+   "verified_at": null,
+   "is_simulated": true
+  },
+  {
+   "id": "sh-005",
+   "name": "Community Centre, Tambaram",
+   "address": "Tambaram, Chennai (approximate)",
+   "lat": 12.9249,
+   "lng": 80.1,
+   "capacity": 500,
+   "availability": "confirmed_open",
+   "source_name": "Relief camp list (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": true,
+    "notes": "Drinking water and food available."
+   },
+   "verified_at": "2026-10-10T08:38:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-006",
+   "name": "Government School Relief Camp, Avadi",
+   "address": "Avadi, Chennai (approximate)",
+   "lat": 13.1067,
+   "lng": 80.097,
+   "capacity": 450,
+   "availability": "confirmed_open",
+   "source_name": "Relief camp list (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": false,
+    "notes": ""
+   },
+   "verified_at": "2026-10-10T09:23:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-007",
+   "name": "Cyclone Shelter, Royapuram",
+   "address": "Royapuram, Chennai (approximate)",
+   "lat": 13.113,
+   "lng": 80.29,
+   "capacity": 600,
+   "availability": "unconfirmed",
+   "source_name": "Designated shelter register (SIMULATED)",
+   "accessibility": {
+    "step_free": "unknown",
+    "medical_desk": false,
+    "notes": ""
+   },
+   "verified_at": null,
+   "is_simulated": true
+  },
+  {
+   "id": "sh-008",
+   "name": "Community Hall, Anna Nagar",
+   "address": "Anna Nagar, Chennai (approximate)",
+   "lat": 13.085,
+   "lng": 80.2101,
+   "capacity": 280,
+   "availability": "confirmed_open",
+   "source_name": "Relief camp list (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": true,
+    "notes": ""
+   },
+   "verified_at": "2026-10-10T08:48:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-009",
+   "name": "Traveller Transit Hall, near Chennai Airport",
+   "address": "Meenambakkam, Chennai (approximate)",
+   "lat": 12.9941,
+   "lng": 80.1709,
+   "capacity": 200,
+   "availability": "unconfirmed",
+   "source_name": "Designated shelter register (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": false,
+    "notes": "Intended for stranded travellers."
+   },
+   "verified_at": null,
+   "is_simulated": true
+  },
+  {
+   "id": "sh-010",
+   "name": "Government College Hall, Mahabalipuram",
+   "address": "Mahabalipuram (approximate)",
+   "lat": 12.6269,
+   "lng": 80.1927,
+   "capacity": 220,
+   "availability": "unconfirmed",
+   "source_name": "Designated shelter register (SIMULATED)",
+   "accessibility": {
+    "step_free": "unknown",
+    "medical_desk": false,
+    "notes": ""
+   },
+   "verified_at": null,
+   "is_simulated": true
+  },
+  {
+   "id": "sh-blr-001",
+   "name": "Koramangala Indoor Stadium Emergency Relief Centre",
+   "address": "80 Feet Road, 4th Block, Koramangala, Bengaluru",
+   "lat": 12.936,
+   "lng": 77.62,
+   "capacity": 350,
+   "availability": "confirmed_open",
+   "source_name": "BBMP Disaster Relief (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": true,
+    "notes": "Dry elevated hall, power generator & medical desk"
+   },
+   "verified_at": "2026-10-10T09:33:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-blr-002",
+   "name": "Bowring Hospital Disaster Relief Point (MG Road)",
+   "address": "Lady Curzon Rd, Shivaji Nagar, Bengaluru",
+   "lat": 12.981,
+   "lng": 77.604,
+   "capacity": 400,
+   "availability": "confirmed_open",
+   "source_name": "Health Department (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": true,
+    "notes": "24/7 emergency medical room & safe shelter"
+   },
+   "verified_at": "2026-10-10T09:38:16Z",
+   "is_simulated": true
+  },
+  {
+   "id": "sh-blr-003",
+   "name": "Marathahalli Community Hall Relief Hub",
+   "address": "Outer Ring Road, Marathahalli, Bengaluru",
+   "lat": 12.954,
+   "lng": 77.701,
+   "capacity": 250,
+   "availability": "confirmed_open",
+   "source_name": "Civic Authority (SIMULATED)",
+   "accessibility": {
+    "step_free": "yes",
+    "medical_desk": false,
+    "notes": "Dry blankets, food packets & drinking water"
+   },
+   "verified_at": "2026-10-10T09:28:16Z",
+   "is_simulated": true
+  }
+ ],
+ "contacts": [
+  {
+   "id": "c-112",
+   "name": "National emergency number",
+   "number": "112",
+   "kind": "emergency"
+  },
+  {
+   "id": "c-108",
+   "name": "Ambulance",
+   "number": "108",
+   "kind": "medical"
+  },
+  {
+   "id": "c-100",
+   "name": "Police",
+   "number": "100",
+   "kind": "police"
+  },
+  {
+   "id": "c-101",
+   "name": "Fire and rescue",
+   "number": "101",
+   "kind": "fire"
+  },
+  {
+   "id": "c-1070",
+   "name": "State disaster control room (Tamil Nadu)",
+   "number": "1070",
+   "kind": "disaster"
+  },
+  {
+   "id": "c-1077",
+   "name": "District disaster control room",
+   "number": "1077",
+   "kind": "disaster"
+  },
+  {
+   "id": "c-1913",
+   "name": "Chennai civic helpline (rain and flood complaints)",
+   "number": "1913",
+   "kind": "civic"
+  },
+  {
+   "id": "c-1533",
+   "name": "BBMP Monsoon Helpline (Bengaluru flood control)",
+   "number": "1533",
+   "kind": "civic"
+  },
+  {
+   "id": "c-1095",
+   "name": "Bengaluru Traffic Police Helpline",
+   "number": "1095",
+   "kind": "police"
+  },
+  {
+   "id": "c-1363",
+   "name": "Tourist helpline",
+   "number": "1363",
+   "kind": "tourist"
+  }
+ ],
+ "contacts_note": "Numbers were compiled for the demo. Verify them with official sources before relying on them in a real emergency.",
+ "glossary": [
+  {
+   "id": "red_alert",
+   "en": "RED ALERT: the highest warning level. Act now.",
+   "urgency": "high",
+   "phrase": "follow_authorities",
+   "variants": [
+    "சிவப்பு எச்சரிக்கை",
+    "रेड अलर्ट",
+    "लाल अलर्ट",
+    "రెడ్ అలర్ట్",
+    "red alert"
+   ]
+  },
+  {
+   "id": "orange_alert",
+   "en": "ORANGE ALERT: be prepared to act.",
+   "urgency": "medium",
+   "phrase": "follow_authorities",
+   "variants": [
+    "ஆரஞ்சு எச்சரிக்கை",
+    "ऑरेंज अलर्ट",
+    "नारंगी अलर्ट",
+    "ఆరెంజ్ అలర్ట్",
+    "orange alert"
+   ]
+  },
+  {
+   "id": "cyclone",
+   "en": "Cyclone or severe storm",
+   "urgency": "high",
+   "phrase": "stay_indoors",
+   "variants": [
+    "புயல்",
+    "சூறாவளி",
+    "चक्रवात",
+    "तूफान",
+    "తుపాను",
+    "cyclon*",
+    "storm*"
+   ]
+  },
+  {
+   "id": "landfall",
+   "en": "Landfall: the storm is crossing the coast",
+   "urgency": "high",
+   "phrase": "avoid_beach",
+   "variants": [
+    "கரையைக் கடக்க",
+    "கரையை கடக்க",
+    "लैंडफॉल",
+    "तट से टकरा",
+    "తీరం దాట",
+    "landfall"
+   ]
+  },
+  {
+   "id": "heavy_rain",
+   "en": "Heavy rainfall",
+   "urgency": "medium",
+   "phrase": "avoid_travel",
+   "variants": [
+    "கனமழை",
+    "மிகக் கனமழை",
+    "भारी बारिश",
+    "भारी वर्षा",
+    "భారీ వర్షం",
+    "heavy rain*"
+   ]
+  },
+  {
+   "id": "flood",
+   "en": "Flood or flooding",
+   "urgency": "high",
+   "phrase": "avoid_floodwater",
+   "variants": [
+    "வெள்ளம்",
+    "வெள்ள",
+    "बाढ़",
+    "వరద",
+    "flood*",
+    "waterlog*"
+   ]
+  },
+  {
+   "id": "evacuate",
+   "en": "Evacuate: leave the area when told to",
+   "urgency": "high",
+   "phrase": "move_higher",
+   "variants": [
+    "வெளியேற",
+    "வெளியேற்ற",
+    "खाली करें",
+    "निकासी",
+    "ఖాళీ చేయ",
+    "తరలింపు",
+    "evacuat*"
+   ]
+  },
+  {
+   "id": "relief_camp",
+   "en": "Relief camp or designated shelter",
+   "urgency": "medium",
+   "phrase": "move_higher",
+   "variants": [
+    "நிவாரண முகாம்",
+    "राहत शिविर",
+    "सहायता शिविर",
+    "సహాయ శిబిరం",
+    "relief camp*",
+    "shelter*"
+   ]
+  },
+  {
+   "id": "beach",
+   "en": "Beach or shoreline",
+   "urgency": "medium",
+   "phrase": "avoid_beach",
+   "variants": [
+    "கடற்கரை",
+    "समुद्र तट",
+    "బీచ్",
+    "సముద్ర తీరం",
+    "beach*",
+    "shoreline"
+   ]
+  },
+  {
+   "id": "electricity",
+   "en": "Electricity or power lines",
+   "urgency": "medium",
+   "phrase": "avoid_electric",
+   "variants": [
+    "மின்சார",
+    "மின் கம்பி",
+    "மின்தடை",
+    "बिजली",
+    "విద్యుత్",
+    "power cut*",
+    "electric*"
+   ]
+  },
+  {
+   "id": "reservoir",
+   "en": "Dam, reservoir or water release",
+   "urgency": "medium",
+   "phrase": "verify_rumor",
+   "variants": [
+    "அணை",
+    "நீர்த்தேக்க",
+    "உபரி நீர்",
+    "बांध",
+    "जलाशय",
+    "ఆనకట్ట",
+    "జలాశయం",
+    "dam",
+    "reservoir*"
+   ]
+  },
+  {
+   "id": "low_lying",
+   "en": "Low-lying areas (most at risk of flooding)",
+   "urgency": "high",
+   "phrase": "move_higher",
+   "variants": [
+    "தாழ்வான",
+    "निचले",
+    "లోతట్టు",
+    "low-lying",
+    "low lying"
+   ]
+  },
+  {
+   "id": "strong_wind",
+   "en": "Strong winds",
+   "urgency": "medium",
+   "phrase": "stay_indoors",
+   "variants": [
+    "காற்று",
+    "तेज हवा",
+    "हवा की गति",
+    "గాలి",
+    "strong wind*",
+    "gale*"
+   ]
+  }
+ ],
+ "phrasebook": {
+  "stay_indoors": {
+   "en": "Stay indoors and away from windows until the authorities say it is safe.",
+   "ta": "அதிகாரிகள் பாதுகாப்பு என அறிவிக்கும் வரை வீட்டுக்குள்ளேயே, ஜன்னல்களிலிருந்து விலகி இருங்கள்.",
+   "hi": "अधिकारियों के सुरक्षित घोषित करने तक घर के अंदर रहें और खिड़कियों से दूर रहें।",
+   "te": "అధికారులు సురక్షితమని ప్రకటించే వరకు ఇంట్లోనే ఉండండి, కిటికీలకు దూరంగా ఉండండి."
+  },
+  "avoid_floodwater": {
+   "en": "Do not walk or drive through floodwater. Even shallow, moving water can sweep you away.",
+   "ta": "வெள்ள நீரில் நடக்கவோ வாகனம் ஓட்டவோ வேண்டாம். ஆழம் குறைவாக இருந்தாலும் ஓடும் நீர் உங்களை இழுத்துச் செல்லக்கூடும்.",
+   "hi": "बाढ़ के पानी में पैदल या गाड़ी से न जाएं। कम गहरा बहता पानी भी आपको बहा सकता है।",
+   "te": "వరద నీటిలో నడవకండి, వాహనం నడపకండి. తక్కువ లోతున్న ప్రవహించే నీరు కూడా మిమ్మల్ని కొట్టుకుపోయేలా చేయగలదు."
+  },
+  "avoid_beach": {
+   "en": "Stay away from beaches and the shoreline. Waves and sea surges can be sudden.",
+   "ta": "கடற்கரை மற்றும் கடலோரப் பகுதிகளிலிருந்து விலகி இருங்கள். அலைகளும் கடல் சீற்றமும் திடீரென ஏற்படலாம்.",
+   "hi": "समुद्र तट और तटरेखा से दूर रहें। लहरें और समुद्री उफान अचानक आ सकते हैं।",
+   "te": "బీచ్‌లు మరియు సముద్ర తీరానికి దూరంగా ఉండండి. అలలు, సముద్రపు ఉప్పెన అకస్మాత్తుగా రావచ్చు."
+  },
+  "follow_authorities": {
+   "en": "Follow instructions from local authorities and police over any social media post.",
+   "ta": "சமூக ஊடகப் பதிவுகளை விட உள்ளூர் அதிகாரிகள் மற்றும் காவல்துறையின் அறிவுறுத்தல்களைப் பின்பற்றுங்கள்.",
+   "hi": "सोशल मीडिया पोस्ट के बजाय स्थानीय अधिकारियों और पुलिस के निर्देशों का पालन करें।",
+   "te": "సోషల్ మీడియా పోస్టుల కంటే స్థానిక అధికారులు మరియు పోలీసుల సూచనలను పాటించండి."
+  },
+  "call_112": {
+   "en": "In an emergency call 112 (national emergency number).",
+   "ta": "அவசர நிலையில் 112 (தேசிய அவசர எண்) என்ற எண்ணை அழைக்கவும்.",
+   "hi": "आपातकाल में 112 (राष्ट्रीय आपातकालीन नंबर) पर कॉल करें।",
+   "te": "అత్యవసర పరిస్థితిలో 112 (జాతీయ అత్యవసర నంబర్)కు కాల్ చేయండి."
+  },
+  "charge_phone": {
+   "en": "Charge your phone and power bank now and keep them with you.",
+   "ta": "உங்கள் தொலைபேசி மற்றும் பவர் பேங்கை இப்போதே சார்ஜ் செய்து உங்களுடன் வைத்திருங்கள்.",
+   "hi": "अपना फोन और पावर बैंक अभी चार्ज करें और अपने पास रखें।",
+   "te": "మీ ఫోన్ మరియు పవర్ బ్యాంక్‌ను ఇప్పుడే ఛార్జ్ చేసి మీ దగ్గర ఉంచుకోండి."
+  },
+  "carry_documents": {
+   "en": "Keep your passport or ID, medicines, drinking water and some cash in a waterproof bag.",
+   "ta": "பாஸ்போர்ட் அல்லது அடையாள அட்டை, மருந்துகள், குடிநீர் மற்றும் சிறிது பணத்தை நீர்புகாத பையில் வைத்திருங்கள்.",
+   "hi": "पासपोर्ट या पहचान पत्र, दवाइयां, पीने का पानी और कुछ नकदी वाटरप्रूफ बैग में रखें।",
+   "te": "పాస్‌పోర్ట్ లేదా ఐడి, మందులు, తాగునీరు మరియు కొంత నగదును వాటర్‌ప్రూఫ్ బ్యాగ్‌లో ఉంచండి."
+  },
+  "inform_hotel": {
+   "en": "Tell your hotel or host your plans and ask what evacuation advice local officials have given.",
+   "ta": "உங்கள் ஹோட்டல் அல்லது தங்குமிட உரிமையாளரிடம் உங்கள் திட்டத்தைத் தெரிவித்து, உள்ளூர் அதிகாரிகள் வழங்கிய வெளியேற்ற அறிவுறுத்தல்களைக் கேளுங்கள்.",
+   "hi": "अपने होटल या मेजबान को अपनी योजना बताएं और पूछें कि स्थानीय अधिकारियों ने निकासी की क्या सलाह दी है।",
+   "te": "మీ హోటల్ లేదా హోస్ట్‌కు మీ ప్రణాళిక తెలియజేసి, స్థానిక అధికారులు ఇచ్చిన తరలింపు సూచనల గురించి అడగండి."
+  },
+  "move_higher": {
+   "en": "If you are in a low-lying area, move to higher ground or a designated shelter when it is safe to do so.",
+   "ta": "நீங்கள் தாழ்வான பகுதியில் இருந்தால், பாதுகாப்பாக இருக்கும்போது உயரமான இடத்திற்கோ அறிவிக்கப்பட்ட நிவாரண முகாமுக்கோ செல்லுங்கள்.",
+   "hi": "यदि आप निचले इलाके में हैं, तो सुरक्षित होने पर ऊंची जगह या निर्धारित आश्रय स्थल पर जाएं।",
+   "te": "మీరు లోతట్టు ప్రాంతంలో ఉంటే, సురక్షితంగా ఉన్నప్పుడు ఎత్తైన ప్రదేశానికి లేదా నిర్దేశిత ఆశ్రయ కేంద్రానికి వెళ్లండి."
+  },
+  "avoid_electric": {
+   "en": "Stay away from fallen electric wires and do not touch electrical switches with wet hands.",
+   "ta": "அறுந்து விழுந்த மின் கம்பிகளிலிருந்து விலகி இருங்கள்; ஈரக் கைகளால் மின் சுவிட்சுகளைத் தொடாதீர்கள்.",
+   "hi": "गिरे हुए बिजली के तारों से दूर रहें और गीले हाथों से बिजली के स्विच न छुएं।",
+   "te": "తెగిపడిన విద్యుత్ తీగలకు దూరంగా ఉండండి, తడి చేతులతో విద్యుత్ స్విచ్‌లను తాకవద్దు."
+  },
+  "verify_rumor": {
+   "en": "Do not forward unverified messages. Check the source and time of any warning before you act on it.",
+   "ta": "சரிபார்க்கப்படாத செய்திகளைப் பகிர வேண்டாம். செயல்படுவதற்கு முன் எச்சரிக்கையின் மூலத்தையும் நேரத்தையும் சரிபார்க்கவும்.",
+   "hi": "असत्यापित संदेश आगे न भेजें। कार्रवाई करने से पहले किसी भी चेतावनी का स्रोत और समय जांचें।",
+   "te": "ధృవీకరించని సందేశాలను ఫార్వర్డ్ చేయవద్దు. చర్య తీసుకునే ముందు హెచ్చరిక మూలం మరియు సమయాన్ని తనిఖీ చేయండి."
+  },
+  "avoid_travel": {
+   "en": "Postpone non-essential travel. Roads may be closed or waterlogged.",
+   "ta": "அவசியமற்ற பயணங்களைத் தள்ளிப் போடுங்கள். சாலைகள் மூடப்பட்டிருக்கலாம் அல்லது நீர் தேங்கியிருக்கலாம்.",
+   "hi": "गैर-जरूरी यात्रा टाल दें। सड़कें बंद या जलमग्न हो सकती हैं।",
+   "te": "అవసరం లేని ప్రయాణాలను వాయిదా వేయండి. రోడ్లు మూసివేయబడి ఉండవచ్చు లేదా నీరు నిలిచి ఉండవచ్చు."
+  },
+  "check_flights": {
+   "en": "Check with your airline or railway before travelling to the airport or station.",
+   "ta": "விமான நிலையம் அல்லது ரயில் நிலையத்துக்குச் செல்லும் முன் உங்கள் விமான அல்லது ரயில் சேவையைத் தொடர்புகொண்டு உறுதிசெய்யுங்கள்.",
+   "hi": "हवाई अड्डे या स्टेशन जाने से पहले अपनी एयरलाइन या रेलवे से जानकारी लें।",
+   "te": "విమానాశ్రయం లేదా స్టేషన్‌కు వెళ్లే ముందు మీ విమానయాన సంస్థ లేదా రైల్వేను సంప్రదించండి."
+  },
+  "ground_floor": {
+   "en": "Do not stay in basements or ground-floor rooms if water is rising. Move to an upper floor.",
+   "ta": "நீர்மட்டம் உயர்ந்தால் அடித்தளம் அல்லது தரைத்தளத்தில் தங்க வேண்டாம்; மேல் தளத்திற்குச் செல்லுங்கள்.",
+   "hi": "यदि पानी बढ़ रहा हो तो बेसमेंट या भूतल के कमरों में न रहें; ऊपरी मंजिल पर जाएं।",
+   "te": "నీరు పెరుగుతుంటే బేస్‌మెంట్ లేదా గ్రౌండ్ ఫ్లోర్ గదుల్లో ఉండవద్దు; పై అంతస్తుకు వెళ్లండి."
+  },
+  "drinking_water": {
+   "en": "Drink only boiled or sealed bottled water. Floodwater can contaminate supplies.",
+   "ta": "கொதிக்க வைத்த அல்லது சீல் செய்யப்பட்ட பாட்டில் நீரை மட்டும் குடியுங்கள்; வெள்ளம் குடிநீரை மாசுபடுத்தக்கூடும்.",
+   "hi": "केवल उबला हुआ या सीलबंद बोतलबंद पानी पिएं; बाढ़ का पानी आपूर्ति को दूषित कर सकता है।",
+   "te": "మరిగించిన లేదా సీల్ చేసిన బాటిల్ నీటిని మాత్రమే తాగండి; వరద నీరు సరఫరాను కలుషితం చేయవచ్చు."
+  },
+  "expired_check": {
+   "en": "This advisory has expired. Look for the latest active alert before deciding what to do.",
+   "ta": "இந்த அறிவுரை காலாவதியாகிவிட்டது. என்ன செய்வது என முடிவெடுக்கும் முன் சமீபத்திய செயலில் உள்ள எச்சரிக்கையைப் பாருங்கள்.",
+   "hi": "यह सलाह समाप्त हो चुकी है। निर्णय लेने से पहले नवीनतम सक्रिय अलर्ट देखें।",
+   "te": "ఈ సూచన గడువు ముగిసింది. నిర్ణయం తీసుకునే ముందు తాజా క్రియాశీల హెచ్చరికను చూడండి."
+  }
+ }
+}

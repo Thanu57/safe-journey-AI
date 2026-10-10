@@ -1,0 +1,10 @@
+{
+  "name": "SafeJourney AI",
+  "short_name": "SafeJourney",
+  "description": "Emergency information for tourists in their own language",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef3f6",
+  "theme_color": "#0a2540",
+  "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

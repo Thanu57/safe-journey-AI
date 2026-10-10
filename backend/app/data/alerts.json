@@ -1,0 +1,148 @@
+[
+  {
+    "id": "alert-001",
+    "title": "Cyclone landfall warning: North Tamil Nadu coast",
+    "type": "cyclone",
+    "severity": "Extreme",
+    "region": "Chennai, Tiruvallur and Chengalpattu coast",
+    "source_name": "State Disaster Management Authority (SIMULATED)",
+    "source_kind": "simulated_official",
+    "source_url": "",
+    "issued_minutes_ago": 95,
+    "updated_minutes_ago": 20,
+    "valid_hours": 18,
+    "original": {
+      "lang": "ta",
+      "text": "அதிதீவிர புயல் 'ஆல்பா' அடுத்த 12 மணி நேரத்தில் சென்னை மற்றும் திருவள்ளூர் கடலோரப் பகுதிகளில் கரையைக் கடக்கும். மணிக்கு 90 முதல் 110 கி.மீ வேகத்தில் காற்று வீசும். கடலோர மற்றும் தாழ்வான பகுதிகளில் உள்ளவர்கள் பாதுகாப்பான இடங்களுக்குச் செல்லவும். கடற்கரைக்குச் செல்ல வேண்டாம்."
+    },
+    "plain_en": "A strong cyclone named 'Alpha' (simulated) is expected to cross the coast near Chennai within about 12 hours, with winds of 90 to 110 km/h. People in coastal and low-lying areas should move to safer places. Stay away from beaches.",
+    "translations": {
+      "ta": {"title": "சூறாவளி கரையைக் கடக்கும் எச்சரிக்கை: வட தமிழக கடலோரம்", "plain": "'ஆல்பா' என்ற வலுவான புயல் (உருவகப்படுத்தப்பட்டது) சுமார் 12 மணி நேரத்தில் சென்னை அருகே கரையைக் கடக்கும். காற்றின் வேகம் மணிக்கு 90 முதல் 110 கி.மீ. கடலோர மற்றும் தாழ்வான பகுதிகளில் உள்ளவர்கள் பாதுகாப்பான இடத்துக்குச் செல்லவும். கடற்கரையிலிருந்து விலகி இருங்கள்."},
+      "hi": {"title": "चक्रवात लैंडफॉल चेतावनी: उत्तरी तमिलनाडु तट", "plain": "'अल्फा' नाम का शक्तिशाली चक्रवात (सिमुलेटेड) लगभग 12 घंटे में चेन्नई के पास तट से टकराने की संभावना है। हवा की गति 90 से 110 किमी/घंटा रहेगी। तटीय और निचले इलाकों के लोग सुरक्षित स्थानों पर जाएं। समुद्र तट से दूर रहें।"},
+      "te": {"title": "తుపాను తీరం దాటే హెచ్చరిక: ఉత్తర తమిళనాడు తీరం", "plain": "'ఆల్ఫా' అనే బలమైన తుపాను (అనుకరణ) సుమారు 12 గంటల్లో చెన్నై సమీపంలో తీరం దాటే అవకాశం ఉంది. గాలి వేగం గంటకు 90 నుండి 110 కి.మీ. తీర మరియు లోతట్టు ప్రాంతాల్లోని వారు సురక్షిత ప్రదేశాలకు వెళ్లండి. బీచ్‌లకు దూరంగా ఉండండి."}
+    },
+    "instruction_ids": ["stay_indoors", "move_higher", "avoid_beach", "avoid_electric", "charge_phone", "carry_documents", "inform_hotel", "follow_authorities", "call_112"]
+  },
+  {
+    "id": "alert-002",
+    "title": "Red alert: extremely heavy rainfall",
+    "type": "rain",
+    "severity": "Severe",
+    "region": "Chennai, Chengalpattu and Kancheepuram districts",
+    "source_name": "Regional Weather Centre (SIMULATED)",
+    "source_kind": "simulated_official",
+    "source_url": "",
+    "issued_minutes_ago": 140,
+    "updated_minutes_ago": 35,
+    "valid_hours": 24,
+    "original": {
+      "lang": "en",
+      "text": "RED ALERT: Extremely heavy rainfall (more than 20 cm in 24 hours) is likely at isolated places in Chennai, Chengalpattu and Kancheepuram districts during the next 24 hours. Waterlogging in low-lying areas, traffic disruption and power cuts are expected."
+    },
+    "plain_en": "Very heavy rain is expected over the next 24 hours. Roads in low areas may flood, traffic may stop and power may go out. Avoid unnecessary travel.",
+    "translations": {
+      "ta": {"title": "சிவப்பு எச்சரிக்கை: மிக அதிக கனமழை", "plain": "அடுத்த 24 மணி நேரத்தில் மிகக் கனமழை எதிர்பார்க்கப்படுகிறது. தாழ்வான பகுதிகளில் சாலைகளில் வெள்ளம் புகலாம்; போக்குவரத்து நிற்கலாம்; மின்தடை ஏற்படலாம். அவசியமற்ற பயணத்தைத் தவிர்க்கவும்."},
+      "hi": {"title": "रेड अलर्ट: अत्यधिक भारी बारिश", "plain": "अगले 24 घंटों में बहुत भारी बारिश की संभावना है। निचले इलाकों में सड़कों पर पानी भर सकता है, यातायात रुक सकता है और बिजली जा सकती है। गैर-जरूरी यात्रा से बचें।"},
+      "te": {"title": "రెడ్ అలర్ట్: అత్యంత భారీ వర్షం", "plain": "రాబోయే 24 గంటల్లో అత్యంత భారీ వర్షం కురిసే అవకాశం ఉంది. లోతట్టు ప్రాంతాల్లో రోడ్లు నీట మునగవచ్చు, రవాణా నిలిచిపోవచ్చు, విద్యుత్ సరఫరా ఆగిపోవచ్చు. అవసరం లేని ప్రయాణాలను నివారించండి."}
+    },
+    "instruction_ids": ["avoid_travel", "avoid_floodwater", "ground_floor", "charge_phone", "check_flights", "drinking_water", "call_112"]
+  },
+  {
+    "id": "alert-003",
+    "title": "Flood alert: Adyar and Cooum river banks",
+    "type": "flood",
+    "severity": "Severe",
+    "region": "Adyar and Cooum river banks, Chennai",
+    "source_name": "Water Resources Department flood bulletin (SIMULATED)",
+    "source_kind": "simulated_official",
+    "source_url": "",
+    "issued_minutes_ago": 70,
+    "updated_minutes_ago": 25,
+    "valid_hours": 12,
+    "original": {
+      "lang": "ta",
+      "text": "அடையாறு மற்றும் கூவம் ஆற்றின் கரையோரப் பகுதிகளில் உள்ளவர்களுக்கு வெள்ள எச்சரிக்கை. நீர்த்தேக்கங்களிலிருந்து உபரி நீர் திறக்கப்படுவதால் ஆற்றில் நீர்மட்டம் உயரும். ஆற்றங்கரையோரம் வசிப்பவர்கள் அதிகாரிகளின் அறிவுறுத்தலின்படி நிவாரண முகாம்களுக்குச் செல்லவும்."
+    },
+    "plain_en": "Water released from reservoirs will raise the Adyar and Cooum rivers. People living along the river banks should be ready to move to relief camps when officials tell them to.",
+    "translations": {
+      "ta": {"title": "வெள்ள எச்சரிக்கை: அடையாறு மற்றும் கூவம் ஆற்றங்கரை", "plain": "நீர்த்தேக்கங்களிலிருந்து திறக்கப்படும் உபரி நீரால் அடையாறு மற்றும் கூவம் ஆறுகளில் நீர்மட்டம் உயரும். ஆற்றங்கரையில் வசிப்பவர்கள் அதிகாரிகள் கூறியவுடன் நிவாரண முகாம்களுக்குச் செல்லத் தயாராக இருங்கள்."},
+      "hi": {"title": "बाढ़ चेतावनी: अडयार और कूवम नदी तट", "plain": "जलाशयों से छोड़े जाने वाले पानी से अडयार और कूवम नदियों का जलस्तर बढ़ेगा। नदी किनारे रहने वाले लोग अधिकारियों के कहने पर राहत शिविरों में जाने के लिए तैयार रहें।"},
+      "te": {"title": "వరద హెచ్చరిక: అడయార్, కూవం నదీ తీరాలు", "plain": "జలాశయాల నుంచి నీరు విడుదల చేయడంతో అడయార్, కూవం నదుల్లో నీటిమట్టం పెరుగుతుంది. నదీ తీరాల్లో నివసించే వారు అధికారులు చెప్పగానే సహాయ శిబిరాలకు వెళ్లడానికి సిద్ధంగా ఉండండి."}
+    },
+    "instruction_ids": ["move_higher", "avoid_floodwater", "ground_floor", "follow_authorities", "verify_rumor", "drinking_water", "call_112"]
+  },
+  {
+    "id": "alert-004",
+    "title": "Beach closure and sea surge advisory",
+    "type": "coastal",
+    "severity": "Moderate",
+    "region": "Marina, Besant Nagar and East Coast Road beaches",
+    "source_name": "City Police coastal notice (SIMULATED)",
+    "source_kind": "simulated_official",
+    "source_url": "",
+    "issued_minutes_ago": 110,
+    "updated_minutes_ago": 60,
+    "valid_hours": 24,
+    "original": {
+      "lang": "en",
+      "text": "All beaches from Ennore to Mahabalipuram are closed to the public from 6 PM today. A sea surge of 2 to 3 metres above normal waves is expected. Fishing and water sports are suspended until further notice."
+    },
+    "plain_en": "Beaches are closed. Waves can be unusually high. Do not go near the sea.",
+    "translations": {
+      "ta": {"title": "கடற்கரைகள் மூடல் மற்றும் கடல் சீற்ற அறிவிப்பு", "plain": "அனைத்து கடற்கரைகளும் மூடப்பட்டுள்ளன. அலைகள் வழக்கத்தை விட மிக உயரமாக எழலாம். கடலுக்கு அருகில் செல்ல வேண்டாம்."},
+      "hi": {"title": "समुद्र तट बंद और समुद्री उफान की सलाह", "plain": "सभी समुद्र तट बंद हैं। लहरें असामान्य रूप से ऊंची हो सकती हैं। समुद्र के पास न जाएं।"},
+      "te": {"title": "బీచ్‌ల మూసివేత, సముద్రపు ఉప్పెన సూచన", "plain": "అన్ని బీచ్‌లు మూసివేయబడ్డాయి. అలలు అసాధారణంగా ఎత్తుగా ఉండవచ్చు. సముద్రం దగ్గరకు వెళ్లవద్దు."}
+    },
+    "instruction_ids": ["avoid_beach", "follow_authorities", "avoid_travel", "call_112"]
+  },
+  {
+    "id": "alert-005",
+    "title": "Unverified claim: 'The reservoir has burst'",
+    "type": "rumor",
+    "severity": "Info",
+    "region": "Circulating on social media (Chennai)",
+    "source_name": "Forwarded message on social media (unverified)",
+    "source_kind": "social_media",
+    "source_url": "",
+    "issued_minutes_ago": 50,
+    "updated_minutes_ago": 50,
+    "valid_hours": 24,
+    "contradicted_by": "alert-003",
+    "original": {
+      "lang": "en",
+      "text": "URGENT!!! The main reservoir has BURST. Whole Chennai will be under 10 feet of water in 1 hour. Forward to everyone you know!!!"
+    },
+    "plain_en": "This message claims a reservoir has burst. No official source confirms this. The official flood bulletin only says that controlled water release is raising river levels.",
+    "translations": {
+      "ta": {"title": "சரிபார்க்கப்படாதது: 'நீர்த்தேக்கம் உடைந்துவிட்டது'", "plain": "இந்தச் செய்தி நீர்த்தேக்கம் உடைந்துவிட்டதாகக் கூறுகிறது. எந்த அதிகாரப்பூர்வ மூலமும் இதை உறுதி செய்யவில்லை. அதிகாரப்பூர்வ வெள்ள அறிவிப்பு, கட்டுப்படுத்தப்பட்ட நீர் திறப்பால் ஆற்று நீர்மட்டம் உயர்கிறது என்று மட்டுமே கூறுகிறது."},
+      "hi": {"title": "असत्यापित: 'जलाशय टूट गया'", "plain": "इस संदेश में दावा है कि एक जलाशय टूट गया है। किसी आधिकारिक स्रोत ने इसकी पुष्टि नहीं की है। आधिकारिक बाढ़ बुलेटिन केवल इतना कहता है कि नियंत्रित जल निकासी से नदियों का स्तर बढ़ रहा है।"},
+      "te": {"title": "ధృవీకరించలేదు: 'జలాశయం తెగిపోయింది'", "plain": "ఈ సందేశం ఒక జలాశయం తెగిపోయిందని చెబుతోంది. ఏ అధికారిక వనరు దీన్ని నిర్ధారించలేదు. అధికారిక వరద బులెటిన్ నియంత్రిత నీటి విడుదల వల్ల నదుల్లో నీటిమట్టం పెరుగుతోందని మాత్రమే చెబుతోంది."}
+    },
+    "instruction_ids": ["verify_rumor", "follow_authorities", "call_112"]
+  },
+  {
+    "id": "alert-006",
+    "title": "Orange alert: heavy rainfall (earlier advisory)",
+    "type": "rain",
+    "severity": "Minor",
+    "region": "Chennai and neighbouring districts",
+    "source_name": "Regional Weather Centre (SIMULATED)",
+    "source_kind": "simulated_official",
+    "source_url": "",
+    "issued_minutes_ago": 1800,
+    "updated_minutes_ago": 1700,
+    "valid_hours": 12,
+    "superseded_by": "alert-002",
+    "original": {
+      "lang": "en",
+      "text": "ORANGE ALERT: Heavy to very heavy rainfall is likely at a few places in Chennai and neighbouring districts for the next 12 hours."
+    },
+    "plain_en": "Heavy rain was expected. This advisory ended yesterday and has been replaced by a red alert.",
+    "translations": {
+      "ta": {"title": "ஆரஞ்சு எச்சரிக்கை: கனமழை (முந்தைய அறிவிப்பு)", "plain": "கனமழை எதிர்பார்க்கப்பட்டது. இந்த அறிவுரை நேற்றே முடிந்துவிட்டது; அதற்குப் பதிலாக சிவப்பு எச்சரிக்கை வெளியிடப்பட்டுள்ளது."},
+      "hi": {"title": "ऑरेंज अलर्ट: भारी बारिश (पिछली सलाह)", "plain": "भारी बारिश की संभावना थी। यह सलाह कल समाप्त हो गई और इसकी जगह रेड अलर्ट जारी हुआ है।"},
+      "te": {"title": "ఆరెంజ్ అలర్ట్: భారీ వర్షం (మునుపటి సూచన)", "plain": "భారీ వర్షం అంచనా వేయబడింది. ఈ సూచన నిన్ననే ముగిసింది; దాని స్థానంలో రెడ్ అలర్ట్ జారీ చేయబడింది."}
+    },
+    "instruction_ids": ["expired_check", "follow_authorities"]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "note": "ASCII variants match whole words; a trailing * matches any word that starts with the stem. Non-ASCII variants match anywhere in the text.",
+  "terms": [
+    {"id": "red_alert", "en": "RED ALERT: the highest warning level. Act now.", "urgency": "high", "phrase": "follow_authorities",
+     "variants": ["சிவப்பு எச்சரிக்கை", "रेड अलर्ट", "लाल अलर्ट", "రెడ్ అలర్ట్", "red alert"]},
+    {"id": "orange_alert", "en": "ORANGE ALERT: be prepared to act.", "urgency": "medium", "phrase": "follow_authorities",
+     "variants": ["ஆரஞ்சு எச்சரிக்கை", "ऑरेंज अलर्ट", "नारंगी अलर्ट", "ఆరెంజ్ అలర్ట్", "orange alert"]},
+    {"id": "cyclone", "en": "Cyclone or severe storm", "urgency": "high", "phrase": "stay_indoors",
+     "variants": ["புயல்", "சூறாவளி", "चक्रवात", "तूफान", "తుపాను", "cyclon*", "storm*"]},
+    {"id": "landfall", "en": "Landfall: the storm is crossing the coast", "urgency": "high", "phrase": "avoid_beach",
+     "variants": ["கரையைக் கடக்க", "கரையை கடக்க", "लैंडफॉल", "तट से टकरा", "తీరం దాట", "landfall"]},
+    {"id": "heavy_rain", "en": "Heavy rainfall", "urgency": "medium", "phrase": "avoid_travel",
+     "variants": ["கனமழை", "மிகக் கனமழை", "भारी बारिश", "भारी वर्षा", "భారీ వర్షం", "heavy rain*"]},
+    {"id": "flood", "en": "Flood or flooding", "urgency": "high", "phrase": "avoid_floodwater",
+     "variants": ["வெள்ளம்", "வெள்ள", "बाढ़", "వరద", "flood*", "waterlog*"]},
+    {"id": "evacuate", "en": "Evacuate: leave the area when told to", "urgency": "high", "phrase": "move_higher",
+     "variants": ["வெளியேற", "வெளியேற்ற", "खाली करें", "निकासी", "ఖాళీ చేయ", "తరలింపు", "evacuat*"]},
+    {"id": "relief_camp", "en": "Relief camp or designated shelter", "urgency": "medium", "phrase": "move_higher",
+     "variants": ["நிவாரண முகாம்", "राहत शिविर", "सहायता शिविर", "సహాయ శిబిరం", "relief camp*", "shelter*"]},
+    {"id": "beach", "en": "Beach or shoreline", "urgency": "medium", "phrase": "avoid_beach",
+     "variants": ["கடற்கரை", "समुद्र तट", "బీచ్", "సముద్ర తీరం", "beach*", "shoreline"]},
+    {"id": "electricity", "en": "Electricity or power lines", "urgency": "medium", "phrase": "avoid_electric",
+     "variants": ["மின்சார", "மின் கம்பி", "மின்தடை", "बिजली", "విద్యుత్", "power cut*", "electric*"]},
+    {"id": "reservoir", "en": "Dam, reservoir or water release", "urgency": "medium", "phrase": "verify_rumor",
+     "variants": ["அணை", "நீர்த்தேக்க", "உபரி நீர்", "बांध", "जलाशय", "ఆనకట్ట", "జలాశయం", "dam", "reservoir*"]},
+    {"id": "low_lying", "en": "Low-lying areas (most at risk of flooding)", "urgency": "high", "phrase": "move_higher",
+     "variants": ["தாழ்வான", "निचले", "లోతట్టు", "low-lying", "low lying"]},
+    {"id": "strong_wind", "en": "Strong winds", "urgency": "medium", "phrase": "stay_indoors",
+     "variants": ["காற்று", "तेज हवा", "हवा की गति", "గాలి", "strong wind*", "gale*"]}
+  ]
+}
